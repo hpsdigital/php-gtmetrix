@@ -1,5 +1,5 @@
 {
-	"name": "philcook/gtmetrix",
+	"name": "hpsdigital/gtmetrix",
 	"description": "GTMetrix API client for PHP",
 	"license": "MIT",
 	"autoload": {
