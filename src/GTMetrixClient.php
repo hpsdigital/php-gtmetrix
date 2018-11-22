@@ -78,7 +78,7 @@ class GTMetrixClient {
 	 * @throws GTMetrixConfigurationException
 	 * @throws GTMetrixException
 	 */
-	protected function apiCall($url, $data = array(), $json = true) {
+	public function apiCall($url, $data = array(), $json = true) {
 		if (!$this->username || !$this->apiKey) {
 			throw new GTMetrixConfigurationException('Username and API key must be set up before using API calls!' .
 				'See setUsername() and setAPIKey() for details.');
